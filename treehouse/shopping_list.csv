@@ -1,0 +1,54 @@
+Category,Item (Home Depot stock size),Qty,Notes
+Lumber,"1x4 x 8 ft exterior trim (PT, cedar or primed)",20,42 cut pieces
+Lumber,"1x6 x 8 ft exterior trim (PT, cedar or primed)",4,10 cut pieces
+Lumber,"1x6 x 10 ft exterior trim (PT, cedar or primed)",4,10 cut pieces
+Lumber,"1x6 x 12 ft exterior trim (PT, cedar or primed)",2,10 cut pieces
+Lumber,2x12 x 10 ft pressure-treated,3,7 cut pieces
+Lumber,2x12 x 16 ft pressure-treated,4,7 cut pieces
+Lumber,2x2 x 8 ft KD framing (SPF/SYP),2,4 cut pieces
+Lumber,2x2 x 8 ft pressure-treated,1,2 cut pieces
+Lumber,2x2 x 36 in PT baluster,50,railing
+Lumber,2x4 x 8 ft KD framing (SPF/SYP),77,139 cut pieces
+Lumber,2x4 x 10 ft KD framing (SPF/SYP),4,139 cut pieces
+Lumber,2x4 x 12 ft KD framing (SPF/SYP),7,139 cut pieces
+Lumber,2x4 x 8 ft pressure-treated,10,22 cut pieces
+Lumber,2x4 x 10 ft pressure-treated,2,22 cut pieces
+Lumber,2x4 x 12 ft pressure-treated,1,22 cut pieces
+Lumber,2x6 x 8 ft KD framing (SPF/SYP),6,32 cut pieces
+Lumber,2x6 x 10 ft KD framing (SPF/SYP),16,32 cut pieces
+Lumber,2x6 x 8 ft pressure-treated,2,47 cut pieces
+Lumber,2x6 x 10 ft pressure-treated,2,47 cut pieces
+Lumber,2x6 x 12 ft pressure-treated,4,47 cut pieces
+Lumber,2x6 x 16 ft pressure-treated,26,47 cut pieces
+Lumber,2x8 x 12 ft KD framing (SPF/SYP),1,1 cut pieces
+Lumber,2x8 x 8 ft pressure-treated,2,20 cut pieces
+Lumber,2x8 x 12 ft pressure-treated,13,20 cut pieces
+Lumber,2x8 x 16 ft pressure-treated,2,20 cut pieces
+Lumber,4x4 x 8 ft pressure-treated,7,13 cut pieces
+Lumber,6x6 x 8 ft pressure-treated,4,4 cut pieces
+Sheet goods,"T1-11 siding 5/8 in, 4 x 8 ft",11,305 sq ft net + 15%
+Sheet goods,"Plywood 1/2 in, 4 x 8 ft (roof sheathing)",8,209 sq ft net + 10%
+Sheet goods,"Plywood 1/4 in, 4 x 8 ft (interior wall skins)",6,
+Sheet goods,"Plywood 3/4 in, 4 x 8 ft (bunk, bench, table)",2,
+Sheet goods,"Acrylic sheet 1/4 in, 24 x 48 in (cut into 6 panes, 24 x 24)",3,windows
+Sheet goods,"Acrylic sheet 1/4 in, 36 x 48 in (reading window, 36 x 30)",1,
+Roofing,"Corrugated metal roof panel, 26 in x 8 ft",14,24 in coverage
+Roofing,"Metal ridge cap, 10 ft",2,
+Roofing,"Roofing screws with washers, bag of 250",1,
+Roofing,"Foam closure strips, pack",2,eaves and ridge
+Concrete,Concrete form tube 12 in x 4 ft,4,dig below your frost depth
+Concrete,"Concrete mix, 80 lb bag",22,about 5 per pier
+Concrete,Post base for 6x6 (e.g. Simpson ABU66Z),4,
+Hardware,Treehouse attachment bolt (TAB) 1-1/4 in with floating bracket,3,"specialty: treehouse supplier, not Home Depot; have an arborist check the tree"
+Hardware,Post cap for 6x6 with double 2x12 beam,4,
+Hardware,Joist hanger 2x8 (e.g. LUS28Z),12,headers and trimmers
+Hardware,Hurricane tie (e.g. H2.5AZ),12,rafters to walls
+Hardware,Carriage bolt 1/2 x 8 in with nut and washers,30,"railing posts, braces, beams"
+Hardware,"Structural wood screws 5 in, box of 50",2,
+Hardware,"Exterior deck screws 3 in, 5 lb box",3,"decking, railing"
+Hardware,"Framing nails or screws 3 in, 5 lb box",2,"walls, roof framing"
+Hardware,T-hinge 6 in,4,"door (2), hatch (2)"
+Hardware,Gate latch or hasp,1,door
+Hardware,Galvanized grab handle 12-18 in,1,at the hatch
+Finish,"Exterior stain or paint, 1 gal",2,"siding, trim, door"
+Finish,Exterior caulk,3,"windows, trim"

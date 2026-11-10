@@ -1,0 +1,26 @@
+ID,Part,Qty,Cut length (in),Cut width (in),Thickness (in),Panel body (in),Sheet(s),Features
+V1-01,A Back,1,46-1/2,30,3/4,46-1/2 x 30,1,16 edge notches; 9 through slots
+V1-02,A Bottom,1,30,12,3/4,30 x 11-1/4,2,3 tabs; 4 edge notches
+V1-03,"A Side, hinge",1,46-1/2,12,3/4,45-3/4 x 11-1/4,1,7 tabs; 2 edge notches; 6 through slots
+V1-04,"A Side, free",1,46-1/2,12,3/4,45-3/4 x 11-1/4,1,7 tabs; 2 edge notches; 6 through slots; 1 hand/cable slots
+V1-05,A Top,1,30,12,3/4,28-1/2 x 11-1/4,2,7 tabs
+V1-06,A Desk deck,1,30,11-1/4,3/4,28-1/2 x 10-1/2,3,7 tabs
+V1-07,A Desk leaf,1,28-3/8,19-1/2,3/4,28-3/8 x 19-1/2,2,finger pull
+V1-08,A Lower shelf,1,30,12,3/4,28-1/2 x 11-1/4,2,7 tabs
+V1-09,A Upper shelf,1,30,9,3/4,28-1/2 x 8-1/4,1,7 tabs
+V1-10,B Back,1,46-1/2,30,3/4,46-1/2 x 30,1,16 edge notches; 9 through slots
+V1-11,B Bottom,1,30,12,3/4,30 x 11-1/4,2,3 tabs; 4 edge notches
+V1-12,"B Side, hinge",1,46-1/2,12,3/4,45-3/4 x 11-1/4,2,7 tabs; 2 edge notches; 6 through slots
+V1-13,"B Side, free",1,46-1/2,12,3/4,45-3/4 x 11-1/4,2,7 tabs; 2 edge notches; 6 through slots; 1 hand/cable slots
+V1-14,B Top,1,30,12,3/4,28-1/2 x 11-1/4,3,7 tabs
+V1-15,B Shelf,3,30,12,3/4,28-1/2 x 11-1/4,3,7 tabs
+
+Hardware (buy),,Qty
+,"Plate caster, 3 in overall, 100 lb+ each",4
+,"Plate caster, locking",4
+,"Continuous (piano) hinge 1-1/2 in, cut to 44-1/2 in",1
+,"Continuous hinge 1-1/2 in, cut to 27-3/8 in (desk leaf)",1
+,"Drop-lid stay / folding desk support, pair (50 lb+)",1
+,Draw latch (holds the box shut),2
+,Barrel bolt or hook (holds B open),1
+,Wood glue; #8 x 5/8 in pan-head screws for hardware,1

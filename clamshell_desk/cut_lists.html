@@ -1,0 +1,136 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Clamshell Workstation: Cut Lists</title><style>
+body{font-family:Arial,Helvetica,sans-serif;margin:24px auto;max-width:1240px;padding:0 16px;color:#222;background:#fafaf7}
+h1{margin:0 0 4px}h2{margin:36px 0 2px;border-top:2px solid #ccc;padding-top:18px}.sub{color:#555;margin:0 0 10px}
+nav a{margin-right:14px}img{width:100%;border:1px solid #ccc;background:#fff;margin:8px 0}
+table{border-collapse:collapse;width:100%;font-size:13px;background:#fff}th,td{border:1px solid #ddd;padding:4px 7px;text-align:left;vertical-align:top}
+th{background:#eee}td.n{white-space:nowrap}code{background:#eee;padding:1px 4px}</style></head><body>
+<h1>Clamshell mobile workstation: CNC cut lists</h1>
+<p class="sub">3/4 in plywood on 4 × 8 ft sheets · tab-and-slot joinery with dog-bones for a 1/4 in bit · DXF files (one per sheet) in <code>clamshell_desk/cnc/</code></p><nav>
+<a href="#V1">V1 Basic</a>
+<a href="#V2">V2 Studio</a>
+<a href="#V3">V3 Pro</a>
+</nav>
+<h2 id="V1">V1 Basic</h2><p class="sub">30 × 24 × 49½ in closed · 3 sheets · 17 parts</p><p>Two plain half-boxes on casters. The desk leaf folds down on folding stays; fixed shelves in both halves.</p>
+<img src="V1_cut_sheets.svg" alt="V1 Basic nested CNC sheets">
+<table><tr><th>ID</th><th>Part</th><th>Qty</th><th>Cut length (in)</th><th>Cut width (in)</th><th>Thickness (in)</th><th>Panel body (in)</th><th>Sheet(s)</th><th>Features</th></tr>
+<tr><td class="n">V1-01</td><td class="n">A Back</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">30</td><td class="n">3/4</td><td class="n">46-1/2 x 30</td><td class="n">1</td><td>16 edge notches; 9 through slots</td></tr>
+<tr><td class="n">V1-02</td><td class="n">A Bottom</td><td class="n">1</td><td class="n">30</td><td class="n">12</td><td class="n">3/4</td><td class="n">30 x 11-1/4</td><td class="n">2</td><td>3 tabs; 4 edge notches</td></tr>
+<tr><td class="n">V1-03</td><td class="n">A Side, hinge</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">1</td><td>7 tabs; 2 edge notches; 6 through slots</td></tr>
+<tr><td class="n">V1-04</td><td class="n">A Side, free</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">1</td><td>7 tabs; 2 edge notches; 6 through slots; 1 hand/cable slots</td></tr>
+<tr><td class="n">V1-05</td><td class="n">A Top</td><td class="n">1</td><td class="n">30</td><td class="n">12</td><td class="n">3/4</td><td class="n">28-1/2 x 11-1/4</td><td class="n">2</td><td>7 tabs</td></tr>
+<tr><td class="n">V1-06</td><td class="n">A Desk deck</td><td class="n">1</td><td class="n">30</td><td class="n">11-1/4</td><td class="n">3/4</td><td class="n">28-1/2 x 10-1/2</td><td class="n">3</td><td>7 tabs</td></tr>
+<tr><td class="n">V1-07</td><td class="n">A Desk leaf</td><td class="n">1</td><td class="n">28-3/8</td><td class="n">19-1/2</td><td class="n">3/4</td><td class="n">28-3/8 x 19-1/2</td><td class="n">2</td><td>finger pull</td></tr>
+<tr><td class="n">V1-08</td><td class="n">A Lower shelf</td><td class="n">1</td><td class="n">30</td><td class="n">12</td><td class="n">3/4</td><td class="n">28-1/2 x 11-1/4</td><td class="n">2</td><td>7 tabs</td></tr>
+<tr><td class="n">V1-09</td><td class="n">A Upper shelf</td><td class="n">1</td><td class="n">30</td><td class="n">9</td><td class="n">3/4</td><td class="n">28-1/2 x 8-1/4</td><td class="n">1</td><td>7 tabs</td></tr>
+<tr><td class="n">V1-10</td><td class="n">B Back</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">30</td><td class="n">3/4</td><td class="n">46-1/2 x 30</td><td class="n">1</td><td>16 edge notches; 9 through slots</td></tr>
+<tr><td class="n">V1-11</td><td class="n">B Bottom</td><td class="n">1</td><td class="n">30</td><td class="n">12</td><td class="n">3/4</td><td class="n">30 x 11-1/4</td><td class="n">2</td><td>3 tabs; 4 edge notches</td></tr>
+<tr><td class="n">V1-12</td><td class="n">B Side, hinge</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">2</td><td>7 tabs; 2 edge notches; 6 through slots</td></tr>
+<tr><td class="n">V1-13</td><td class="n">B Side, free</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">2</td><td>7 tabs; 2 edge notches; 6 through slots; 1 hand/cable slots</td></tr>
+<tr><td class="n">V1-14</td><td class="n">B Top</td><td class="n">1</td><td class="n">30</td><td class="n">12</td><td class="n">3/4</td><td class="n">28-1/2 x 11-1/4</td><td class="n">3</td><td>7 tabs</td></tr>
+<tr><td class="n">V1-15</td><td class="n">B Shelf</td><td class="n">3</td><td class="n">30</td><td class="n">12</td><td class="n">3/4</td><td class="n">28-1/2 x 11-1/4</td><td class="n">3</td><td>7 tabs</td></tr>
+</table><h3>Hardware to buy</h3><table><tr><th>Item</th><th>Qty</th></tr>
+<tr><td>Plate caster, 3 in overall, 100 lb+ each</td><td>4</td></tr>
+<tr><td>Plate caster, locking</td><td>4</td></tr>
+<tr><td>Continuous (piano) hinge 1-1/2 in, cut to 44-1/2 in</td><td>1</td></tr>
+<tr><td>Continuous hinge 1-1/2 in, cut to 27-3/8 in (desk leaf)</td><td>1</td></tr>
+<tr><td>Drop-lid stay / folding desk support, pair (50 lb+)</td><td>1</td></tr>
+<tr><td>Draw latch (holds the box shut)</td><td>2</td></tr>
+<tr><td>Barrel bolt or hook (holds B open)</td><td>1</td></tr>
+<tr><td>Wood glue; #8 x 5/8 in pan-head screws for hardware</td><td>1</td></tr>
+</table>
+<h2 id="V2">V2 Studio</h2><p class="sub">36 × 24 × 49½ in closed · 4 sheets · 35 parts</p><p>The lower doors swing out to hold up the desk leaf. Adds cubbies, two pull-out bins, lipped shelves, a divider and a pegboard back in B.</p>
+<img src="V2_cut_sheets.svg" alt="V2 Studio nested CNC sheets">
+<table><tr><th>ID</th><th>Part</th><th>Qty</th><th>Cut length (in)</th><th>Cut width (in)</th><th>Thickness (in)</th><th>Panel body (in)</th><th>Sheet(s)</th><th>Features</th></tr>
+<tr><td class="n">V2-01</td><td class="n">A Back</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">36</td><td class="n">3/4</td><td class="n">46-1/2 x 36</td><td class="n">1</td><td>17 edge notches; 15 through slots</td></tr>
+<tr><td class="n">V2-02</td><td class="n">A Bottom</td><td class="n">1</td><td class="n">36</td><td class="n">11-1/4</td><td class="n">3/4</td><td class="n">36 x 10-1/2</td><td class="n">3</td><td>4 tabs; 4 edge notches</td></tr>
+<tr><td class="n">V2-03</td><td class="n">A Side, hinge</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">2</td><td>7 tabs; 2 edge notches; 6 through slots</td></tr>
+<tr><td class="n">V2-04</td><td class="n">A Side, free</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">2</td><td>7 tabs; 2 edge notches; 6 through slots; 1 hand/cable slots</td></tr>
+<tr><td class="n">V2-05</td><td class="n">A Top</td><td class="n">1</td><td class="n">36</td><td class="n">12</td><td class="n">3/4</td><td class="n">34-1/2 x 11-1/4</td><td class="n">2</td><td>7 tabs</td></tr>
+<tr><td class="n">V2-06</td><td class="n">A Desk deck</td><td class="n">1</td><td class="n">36</td><td class="n">11-1/4</td><td class="n">3/4</td><td class="n">34-1/2 x 10-1/2</td><td class="n">3</td><td>7 tabs; 6 through slots</td></tr>
+<tr><td class="n">V2-07</td><td class="n">A Desk leaf</td><td class="n">1</td><td class="n">34-3/8</td><td class="n">19-1/2</td><td class="n">3/4</td><td class="n">34-3/8 x 19-1/2</td><td class="n">1</td><td>finger pull</td></tr>
+<tr><td class="n">V2-08</td><td class="n">A Door, hinge side</td><td class="n">1</td><td class="n">27-1/2</td><td class="n">17-1/8</td><td class="n">3/4</td><td class="n">27-1/2 x 17-1/8</td><td class="n">2</td><td>1 hand/cable slots</td></tr>
+<tr><td class="n">V2-09</td><td class="n">A Door, free side</td><td class="n">1</td><td class="n">27-1/2</td><td class="n">17-1/8</td><td class="n">3/4</td><td class="n">27-1/2 x 17-1/8</td><td class="n">2</td><td>1 hand/cable slots</td></tr>
+<tr><td class="n">V2-10</td><td class="n">A Mid shelf</td><td class="n">1</td><td class="n">36</td><td class="n">11-1/4</td><td class="n">3/4</td><td class="n">34-1/2 x 10-1/2</td><td class="n">3</td><td>7 tabs</td></tr>
+<tr><td class="n">V2-11</td><td class="n">Bin bottom</td><td class="n">2</td><td class="n">16-7/8</td><td class="n">10</td><td class="n">3/4</td><td class="n">16-7/8 x 10</td><td class="n">1 3</td><td>8 edge notches</td></tr>
+<tr><td class="n">V2-12</td><td class="n">Bin front</td><td class="n">2</td><td class="n">16-7/8</td><td class="n">9-1/2</td><td class="n">3/4</td><td class="n">16-7/8 x 8-3/4</td><td class="n">2 4</td><td>2 tabs; 4 edge notches; 1 hand/cable slots</td></tr>
+<tr><td class="n">V2-13</td><td class="n">Bin back</td><td class="n">2</td><td class="n">16-7/8</td><td class="n">9-1/2</td><td class="n">3/4</td><td class="n">16-7/8 x 8-3/4</td><td class="n">3 4</td><td>2 tabs; 4 edge notches</td></tr>
+<tr><td class="n">V2-14</td><td class="n">Bin side</td><td class="n">4</td><td class="n">10</td><td class="n">9-1/2</td><td class="n">3/4</td><td class="n">8-3/4 x 8-1/2</td><td class="n">2 3 4</td><td>6 tabs</td></tr>
+<tr><td class="n">V2-15</td><td class="n">A Upper shelf</td><td class="n">1</td><td class="n">36</td><td class="n">11</td><td class="n">3/4</td><td class="n">34-1/2 x 10-1/4</td><td class="n">3</td><td>7 tabs; 6 through slots</td></tr>
+<tr><td class="n">V2-16</td><td class="n">A Cubby divider</td><td class="n">3</td><td class="n">12</td><td class="n">11</td><td class="n">3/4</td><td class="n">10-1/2 x 10-1/4</td><td class="n">4</td><td>6 tabs</td></tr>
+<tr><td class="n">V2-17</td><td class="n">B Back</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">36</td><td class="n">3/4</td><td class="n">46-1/2 x 36</td><td class="n">1</td><td>17 edge notches; 8 through slots; 561 pegboard holes</td></tr>
+<tr><td class="n">V2-18</td><td class="n">B Bottom</td><td class="n">1</td><td class="n">36</td><td class="n">12</td><td class="n">3/4</td><td class="n">36 x 11-1/4</td><td class="n">3</td><td>4 tabs; 7 edge notches; 2 through slots</td></tr>
+<tr><td class="n">V2-19</td><td class="n">B Side, hinge</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">2</td><td>7 tabs; 5 edge notches; 4 through slots</td></tr>
+<tr><td class="n">V2-20</td><td class="n">B Side, free</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">2</td><td>7 tabs; 5 edge notches; 4 through slots; 1 hand/cable slots</td></tr>
+<tr><td class="n">V2-21</td><td class="n">B Top</td><td class="n">1</td><td class="n">36</td><td class="n">12</td><td class="n">3/4</td><td class="n">34-1/2 x 11-1/4</td><td class="n">3</td><td>7 tabs</td></tr>
+<tr><td class="n">V2-22</td><td class="n">B Shelf, lower</td><td class="n">1</td><td class="n">36</td><td class="n">12</td><td class="n">3/4</td><td class="n">34-1/2 x 11-1/4</td><td class="n">3</td><td>7 tabs; 3 edge notches; 2 through slots</td></tr>
+<tr><td class="n">V2-23</td><td class="n">B Shelf, counter</td><td class="n">1</td><td class="n">36</td><td class="n">12</td><td class="n">3/4</td><td class="n">34-1/2 x 11-1/4</td><td class="n">3</td><td>7 tabs; 3 edge notches</td></tr>
+<tr><td class="n">V2-24</td><td class="n">B Lip</td><td class="n">3</td><td class="n">36</td><td class="n">2-3/4</td><td class="n">3/4</td><td class="n">34-1/2 x 2</td><td class="n">2 3</td><td>5 tabs</td></tr>
+<tr><td class="n">V2-25</td><td class="n">B Divider</td><td class="n">1</td><td class="n">13-3/4</td><td class="n">11-1/4</td><td class="n">3/4</td><td class="n">12-1/4 x 10-1/2</td><td class="n">4</td><td>6 tabs</td></tr>
+</table><h3>Hardware to buy</h3><table><tr><th>Item</th><th>Qty</th></tr>
+<tr><td>Plate caster, 3 in overall, 100 lb+ each</td><td>4</td></tr>
+<tr><td>Plate caster, locking</td><td>4</td></tr>
+<tr><td>Continuous (piano) hinge 1-1/2 in, cut to 44-1/2 in</td><td>1</td></tr>
+<tr><td>Continuous hinge 1-1/2 in, cut to 33-3/8 in (desk leaf)</td><td>1</td></tr>
+<tr><td>No-mortise or butt hinge 2-1/2 in (doors)</td><td>4</td></tr>
+<tr><td>Magnetic catch (doors)</td><td>2</td></tr>
+<tr><td>Screw-in leveling glide 1/2 in (door feet)</td><td>2</td></tr>
+<tr><td>Draw latch (holds the box shut)</td><td>2</td></tr>
+<tr><td>Barrel bolt or hook (holds B open)</td><td>1</td></tr>
+<tr><td>Pegboard hook assortment, 1/4 in</td><td>1</td></tr>
+<tr><td>Wood glue; #8 x 5/8 in screws for hardware</td><td>1</td></tr>
+</table>
+<h2 id="V3">V3 Pro</h2><p class="sub">36 × 24 × 49½ in closed · 4 sheets · 49 parts (stool included)</p><p>Everything in V2 plus a pencil drawer, a mail-slot organizer, a desk grommet and power bay, file slots, pegboard over the desk and a flat-pack stool.</p>
+<img src="V3_cut_sheets.svg" alt="V3 Pro nested CNC sheets">
+<table><tr><th>ID</th><th>Part</th><th>Qty</th><th>Cut length (in)</th><th>Cut width (in)</th><th>Thickness (in)</th><th>Panel body (in)</th><th>Sheet(s)</th><th>Features</th></tr>
+<tr><td class="n">V3-01</td><td class="n">A Back</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">36</td><td class="n">3/4</td><td class="n">46-1/2 x 36</td><td class="n">1</td><td>17 edge notches; 16 through slots; 1 hand/cable slots; 360 pegboard holes</td></tr>
+<tr><td class="n">V3-02</td><td class="n">A Bottom</td><td class="n">1</td><td class="n">36</td><td class="n">11-1/4</td><td class="n">3/4</td><td class="n">36 x 10-1/2</td><td class="n">3</td><td>4 tabs; 4 edge notches</td></tr>
+<tr><td class="n">V3-03</td><td class="n">A Side, hinge</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">2</td><td>7 tabs; 2 edge notches; 4 through slots</td></tr>
+<tr><td class="n">V3-04</td><td class="n">A Side, free</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">2</td><td>7 tabs; 2 edge notches; 6 through slots; 1 hand/cable slots</td></tr>
+<tr><td class="n">V3-05</td><td class="n">A Top</td><td class="n">1</td><td class="n">36</td><td class="n">12</td><td class="n">3/4</td><td class="n">34-1/2 x 11-1/4</td><td class="n">2</td><td>7 tabs; 2 through slots</td></tr>
+<tr><td class="n">V3-06</td><td class="n">A Desk deck</td><td class="n">1</td><td class="n">36</td><td class="n">11-1/4</td><td class="n">3/4</td><td class="n">34-1/2 x 10-1/2</td><td class="n">3</td><td>7 tabs; 8 through slots; grommet hole</td></tr>
+<tr><td class="n">V3-07</td><td class="n">A Desk leaf</td><td class="n">1</td><td class="n">34-3/8</td><td class="n">19-1/2</td><td class="n">3/4</td><td class="n">34-3/8 x 19-1/2</td><td class="n">1</td><td>finger pull</td></tr>
+<tr><td class="n">V3-08</td><td class="n">A Door, hinge side</td><td class="n">1</td><td class="n">27-1/2</td><td class="n">17-1/8</td><td class="n">3/4</td><td class="n">27-1/2 x 17-1/8</td><td class="n">2</td><td>1 hand/cable slots</td></tr>
+<tr><td class="n">V3-09</td><td class="n">A Door, free side</td><td class="n">1</td><td class="n">27-1/2</td><td class="n">17-1/8</td><td class="n">3/4</td><td class="n">27-1/2 x 17-1/8</td><td class="n">2</td><td>1 hand/cable slots</td></tr>
+<tr><td class="n">V3-10</td><td class="n">A Mid shelf</td><td class="n">1</td><td class="n">36</td><td class="n">11-1/4</td><td class="n">3/4</td><td class="n">34-1/2 x 10-1/2</td><td class="n">3</td><td>7 tabs</td></tr>
+<tr><td class="n">V3-11</td><td class="n">Bin bottom</td><td class="n">2</td><td class="n">16-7/8</td><td class="n">10</td><td class="n">3/4</td><td class="n">16-7/8 x 10</td><td class="n">3</td><td>8 edge notches</td></tr>
+<tr><td class="n">V3-12</td><td class="n">Bin front</td><td class="n">2</td><td class="n">16-7/8</td><td class="n">9-1/2</td><td class="n">3/4</td><td class="n">16-7/8 x 8-3/4</td><td class="n">2 3</td><td>2 tabs; 4 edge notches; 1 hand/cable slots</td></tr>
+<tr><td class="n">V3-13</td><td class="n">Bin back</td><td class="n">2</td><td class="n">16-7/8</td><td class="n">9-1/2</td><td class="n">3/4</td><td class="n">16-7/8 x 8-3/4</td><td class="n">3</td><td>2 tabs; 4 edge notches</td></tr>
+<tr><td class="n">V3-14</td><td class="n">Bin side</td><td class="n">4</td><td class="n">10</td><td class="n">9-1/2</td><td class="n">3/4</td><td class="n">8-3/4 x 8-1/2</td><td class="n">2 4</td><td>6 tabs</td></tr>
+<tr><td class="n">V3-15</td><td class="n">A Organizer divider</td><td class="n">1</td><td class="n">21-1/4</td><td class="n">11</td><td class="n">3/4</td><td class="n">19-3/4 x 10-1/4</td><td class="n">1</td><td>6 tabs; 2 through slots</td></tr>
+<tr><td class="n">V3-16</td><td class="n">A Organizer shelf</td><td class="n">1</td><td class="n">13-1/2</td><td class="n">11</td><td class="n">3/4</td><td class="n">12 x 10-1/4</td><td class="n">4</td><td>6 tabs; 6 through slots</td></tr>
+<tr><td class="n">V3-17</td><td class="n">A Mail-slot divider</td><td class="n">3</td><td class="n">12</td><td class="n">11</td><td class="n">3/4</td><td class="n">10-1/2 x 10-1/4</td><td class="n">4</td><td>6 tabs</td></tr>
+<tr><td class="n">V3-18</td><td class="n">Drawer bottom</td><td class="n">1</td><td class="n">32</td><td class="n">7-1/2</td><td class="n">3/4</td><td class="n">32 x 7-1/2</td><td class="n">3</td><td>10 edge notches</td></tr>
+<tr><td class="n">V3-19</td><td class="n">Drawer front</td><td class="n">1</td><td class="n">32</td><td class="n">3-1/2</td><td class="n">3/4</td><td class="n">32 x 2-3/4</td><td class="n">2</td><td>3 tabs; 2 edge notches; finger pull</td></tr>
+<tr><td class="n">V3-20</td><td class="n">Drawer back</td><td class="n">1</td><td class="n">32</td><td class="n">3-1/2</td><td class="n">3/4</td><td class="n">32 x 2-3/4</td><td class="n">4</td><td>3 tabs; 2 edge notches</td></tr>
+<tr><td class="n">V3-21</td><td class="n">Drawer side</td><td class="n">2</td><td class="n">7-1/2</td><td class="n">3-1/2</td><td class="n">3/4</td><td class="n">6 x 2-3/4</td><td class="n">2</td><td>4 tabs</td></tr>
+<tr><td class="n">V3-22</td><td class="n">A Slide cleat</td><td class="n">2</td><td class="n">8</td><td class="n">3</td><td class="n">3/4</td><td class="n">8 x 3</td><td class="n">2</td><td></td></tr>
+<tr><td class="n">V3-23</td><td class="n">B Back</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">36</td><td class="n">3/4</td><td class="n">46-1/2 x 36</td><td class="n">1</td><td>17 edge notches; 14 through slots; 561 pegboard holes</td></tr>
+<tr><td class="n">V3-24</td><td class="n">B Bottom</td><td class="n">1</td><td class="n">36</td><td class="n">12</td><td class="n">3/4</td><td class="n">36 x 11-1/4</td><td class="n">3</td><td>4 tabs; 7 edge notches; 8 through slots</td></tr>
+<tr><td class="n">V3-25</td><td class="n">B Side, hinge</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">2</td><td>7 tabs; 5 edge notches; 4 through slots</td></tr>
+<tr><td class="n">V3-26</td><td class="n">B Side, free</td><td class="n">1</td><td class="n">46-1/2</td><td class="n">12</td><td class="n">3/4</td><td class="n">45-3/4 x 11-1/4</td><td class="n">2</td><td>7 tabs; 5 edge notches; 4 through slots; 1 hand/cable slots</td></tr>
+<tr><td class="n">V3-27</td><td class="n">B Top</td><td class="n">1</td><td class="n">36</td><td class="n">12</td><td class="n">3/4</td><td class="n">34-1/2 x 11-1/4</td><td class="n">3</td><td>7 tabs</td></tr>
+<tr><td class="n">V3-28</td><td class="n">B Shelf, lower</td><td class="n">1</td><td class="n">36</td><td class="n">12</td><td class="n">3/4</td><td class="n">34-1/2 x 11-1/4</td><td class="n">3</td><td>7 tabs; 3 edge notches; 8 through slots</td></tr>
+<tr><td class="n">V3-29</td><td class="n">B Shelf, counter</td><td class="n">1</td><td class="n">36</td><td class="n">12</td><td class="n">3/4</td><td class="n">34-1/2 x 11-1/4</td><td class="n">3</td><td>7 tabs; 3 edge notches</td></tr>
+<tr><td class="n">V3-30</td><td class="n">B Lip</td><td class="n">3</td><td class="n">36</td><td class="n">2-3/4</td><td class="n">3/4</td><td class="n">34-1/2 x 2</td><td class="n">4</td><td>5 tabs</td></tr>
+<tr><td class="n">V3-31</td><td class="n">B Divider</td><td class="n">1</td><td class="n">13-3/4</td><td class="n">11-1/4</td><td class="n">3/4</td><td class="n">12-1/4 x 10-1/2</td><td class="n">4</td><td>6 tabs</td></tr>
+<tr><td class="n">V3-32</td><td class="n">B File-slot divider</td><td class="n">3</td><td class="n">13-3/4</td><td class="n">11-1/4</td><td class="n">3/4</td><td class="n">12-1/4 x 10-1/2</td><td class="n">4</td><td>6 tabs</td></tr>
+<tr><td class="n">V3-33</td><td class="n">Stool leg A (slot from top)</td><td class="n">1</td><td class="n">18</td><td class="n">15</td><td class="n">3/4</td><td class="n"></td><td class="n">4</td><td></td></tr>
+<tr><td class="n">V3-34</td><td class="n">Stool leg B (slot from bottom)</td><td class="n">1</td><td class="n">18</td><td class="n">15</td><td class="n">3/4</td><td class="n"></td><td class="n">4</td><td></td></tr>
+<tr><td class="n">V3-35</td><td class="n">Stool seat</td><td class="n">1</td><td class="n">14</td><td class="n">14</td><td class="n">3/4</td><td class="n"></td><td class="n">4</td><td></td></tr>
+</table><h3>Hardware to buy</h3><table><tr><th>Item</th><th>Qty</th></tr>
+<tr><td>Plate caster, 3 in overall, 100 lb+ each</td><td>4</td></tr>
+<tr><td>Plate caster, locking</td><td>4</td></tr>
+<tr><td>Continuous (piano) hinge 1-1/2 in, cut to 44-1/2 in</td><td>1</td></tr>
+<tr><td>Continuous hinge 1-1/2 in, cut to 33-3/8 in (desk leaf)</td><td>1</td></tr>
+<tr><td>No-mortise or butt hinge 2-1/2 in (doors)</td><td>4</td></tr>
+<tr><td>Magnetic catch (doors)</td><td>2</td></tr>
+<tr><td>Screw-in leveling glide 1/2 in (door feet)</td><td>2</td></tr>
+<tr><td>Side-mount drawer slides 8 in, pair</td><td>1</td></tr>
+<tr><td>Desk grommet 2 in</td><td>1</td></tr>
+<tr><td>Power strip, flat plug, mounted in the power bay</td><td>1</td></tr>
+<tr><td>Draw latch (holds the box shut)</td><td>2</td></tr>
+<tr><td>Barrel bolt or hook (holds B open)</td><td>1</td></tr>
+<tr><td>Pegboard hook assortment, 1/4 in</td><td>1</td></tr>
+<tr><td>Wood glue; #8 x 5/8 in screws for hardware</td><td>1</td></tr>
+</table>
+</body></html>
