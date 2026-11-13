@@ -101,3 +101,35 @@ The individual pages are PNGs in `print_v4/pages/`.
 To rebuild:
 1. With `bike_trailer_v4.igz` open in IngeTrazo and the bridge on, run `generator/shots4.py` for the hidden-line renders, then `generator/restore4.py`.
 2. Run `generator/bt4_print.py OUT_DIR RENDER_DIR`.
+
+# Variations: mobile hardware store (on the version 4 trailer)
+
+Two quick concept sketches. The trailer itself is unchanged. Its 21 x 34 in deck becomes the floor of a plywood cabinet. Sizes were picked to fit the deck and clear the wheels; nothing is measured or load-checked.
+
+## A: open stall (`bike_trailer_v4_hardware_store.igz`)
+
+- **Drawers.** 14 on the back (customer) face: 12 small-parts drawers and 2 wide ones, each with a label card. One is shown pulled out.
+- **Bin display.** 8 open-front hopper bins on two steps on the counter, which is 31.7 in above the ground.
+- **Pegboard.** Double-sided, in a 1x2 frame over the axle, with a HARDWARE sign on top. The customer face holds tools and carded parts; the tow-side face holds rope and an extension cord.
+- **Other parts.** A stock tote and cash box on the front half, a door to bulk storage on the front face, and 4 prop legs that clamp to the cross members to hold it level when unhitched.
+- **Height.** The sign top is 58.4 in.
+- **Groups and rebuild.** Groups are the assembled store and an exploded view. Rebuild with `generator/build_igz_store.py` (loads `bt_store_geom.py`, `bt_store_app.py`).
+
+## B: tackle box (`bike_trailer_v4_tackle_store.igz`)
+
+Closed for towing, it is a plain box 40.9 in high. Opened:
+
+- **Back doors.** Two doors swing out 115 deg. Each is a shallow tray with three lipped shelves of parts jars. Behind them is a grid of 12 cubbies with parts boxes.
+- **Cantilever trays.** A fixed 32-compartment tray sits on the cabinet. On each side, two 24-compartment trays ride on parallel steel arms and fan out over the wheels in steps, like a cantilever tackle box. That makes 128 compartments in the trays.
+- **How the arms work.**
+  - Each arm has pivots 4.61 in apart.
+  - It swings from 49 deg inboard (closed) to 49 deg outboard (open), so tier 1 moves straight out 7 in and tier 2 moves 14 in.
+  - Two parallel arms at each end keep the trays level.
+  - Open width is 48.7 in.
+- **Lid.** Hinged on the front edge, it stands up as a pegboard backboard with the sign. Its top is 74.9 in, and two stays hold it.
+- **Groups and rebuild.** Groups are open and closed. Rebuild with `generator/build_igz_tackle.py` (loads `bt_store_geom.py`, `bt_tackle_geom.py`, `bt_tackle_app.py`).
+
+Things to check:
+- Top-heaviness and wind on the tall lid; a lid that folds in half would stand only about 17 in.
+- Total weight on 26 in wheels.
+- How the cabinet fixes to the deck and inner bars (the cabinet sides sit right over the inner bars, so U-bolts there would work).
